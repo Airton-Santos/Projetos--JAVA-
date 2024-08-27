@@ -8,7 +8,6 @@ public class CalculadoraFour {
 
         boolean continuar = true;
 
-    
         while (continuar) {
 
             System.out.println("Bem vindo a Calculadora 3.0"); //Mensagem de bem vindo
