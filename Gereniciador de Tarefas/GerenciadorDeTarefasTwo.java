@@ -31,11 +31,20 @@ public class GerenciadorDeTarefasTwo {
                     break;
                 
                 case 2:
-                        removerTarefas(tarefas, scanner);
+                        if (tarefas.isEmpty()) {
+                            System.out.println("Não há tarefas pare remover!");
+                        }
+                        else{
+                            removerTarefas(tarefas, scanner);
+                        }
                     break;
-                
                 case 3:
-                        exibirTarefas(tarefas);
+                        if (tarefas.isEmpty()) {
+                            System.out.println("A lista de Tarefas Está vazia!");
+                        }
+                        else {
+                            exibirTarefas(tarefas);
+                        }
                     break;
 
                 case 4: 
