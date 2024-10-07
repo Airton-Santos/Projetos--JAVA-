@@ -1,2 +1,2 @@
 # Calculadora (JAVA)
- Calculadora Feita Em Java
+Mini Projetos feito em java
